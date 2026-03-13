@@ -10,10 +10,6 @@ You must install munch to run this script.
 ```bash
 pip3 install munch
 ```
-or 
-```bash
-pip install munch
-```
 
 ## Step 2
 
