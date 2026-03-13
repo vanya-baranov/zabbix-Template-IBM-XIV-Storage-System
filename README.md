@@ -23,7 +23,24 @@ https://github.com/IBM/pyxcli
 
 It must be added to -
 
-/usr/lib/python3.6/site-packages
+/usr/lib/python3/dist-packages/pyxcli/
+
+# Patch pyxcli for python 3.11
+
+patch in file  transport.py  on
+ ```  timeout=60.0 ```
+
+patch in file client.py
+
+ ```
+  def _populate_commands(self):
+        #for info in self.execute("ups_list"):
+        #    invoker = getattr(self.cmd, info.name)
+        #    invoker.__doc__ = info.description + "\nUsage: " + info.syntax
+        #    invoker.syntax = info.syntax
+        #    setattr(self.cmd, info.name, invoker)
+        pass
+ ```
 
 ## Step 3
 
