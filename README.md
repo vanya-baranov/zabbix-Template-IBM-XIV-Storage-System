@@ -19,7 +19,7 @@ https://github.com/IBM/pyxcli
 
 It must be added to -
 
-/usr/lib/python3/dist-packages/pyxcli/
+/usr/lib/python3/dist-packages/
 
 # Patch pyxcli for python 3.11
 
