@@ -15,11 +15,6 @@
             <name>Template IBM XIV Storage System</name>
             <description>Template for monitoring IBM XIV servers with pyxcli
 Скрипт собирает данные через pyxcli, далее json парсится</description>
-            <templates>
-                <template>
-                    <name>Template Exist Unsupported Items ver.2</name>
-                </template>
-            </templates>
             <groups>
                 <group>
                     <name>Templates/Modules</name>
